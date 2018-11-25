@@ -1,0 +1,59 @@
+    <TextView
+        android:id="@+id/top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B.Sc.(Hons) Computer Science"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp">
+
+        <RadioButton
+            android:id="@+id/DS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Structures"/>
+
+        <RadioButton
+            android:id="@+id/AP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Android Programming"/>
+
+        <RadioButton
+            android:id="@+id/OS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Operating System"/>
+
+        <RadioButton
+            android:id="@+id/N"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Networking"/>
+
+        <RadioButton
+            android:id="@+id/M"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="GE-Maths"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="SUBMIT"/>

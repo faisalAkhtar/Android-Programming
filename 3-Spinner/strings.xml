@@ -1,0 +1,10 @@
+
+    <string-array name="object_array">
+        <item>Background</item>
+        <item>Foreground</item>
+    </string-array>
+
+    <integer-array name="object_image">
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_foreground</item>
+    </integer-array>

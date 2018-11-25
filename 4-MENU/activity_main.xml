@@ -1,0 +1,29 @@
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="MENU"
+        />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/tv"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="50dp">
+    </ListView>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="25dp"
+        android:text="None selected"/>
